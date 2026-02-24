@@ -1,0 +1,656 @@
+<mxfile host="65bd71144e">
+    <diagram id="7pWAfUnYK69OKVpqDlkn" name="Administración">
+        <mxGraphModel dx="1426" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Servicios Públicos" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="30" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="1. ¿Durante el último trimestre el establecimiento ha experimentado interrupciones en la prestación del servicio de electricidad?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="40" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="2. ¿Con que frecuencia el servicio de electricidad fue interrunpido?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="40" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="3.&amp;nbsp;¿a qué se debieron estas interrupciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="180" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.567;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="400" as="sourcePoint"/>
+                        <mxPoint x="450" y="350" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="790" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="14" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="14" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="4.&amp;nbsp;¿Dentro del ERON se cuenta con alguna estrategia para hacer frente a las interrupciones en el servicio de energía eléctrica?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="260" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="30" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="5. ¿Cúales?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="260" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="19" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="6.&amp;nbsp;¿Durante el último trimestre el establecimiento ha experimentado interrupciones en la prestación del servicio público de acueducto?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="410" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="250" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="350" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="3" target="19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="10" y="290" as="sourcePoint"/>
+                        <mxPoint x="60" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="330" y="150"/>
+                            <mxPoint x="60" y="150"/>
+                            <mxPoint x="60" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry y="260" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="470" as="sourcePoint"/>
+                        <mxPoint x="420" y="410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="650" y="370"/>
+                            <mxPoint x="325" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="7. ¿Con que frecuencia el servicio de acueducto fue interrunpido?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="410" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="400" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="32" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="8.&amp;nbsp;¿a qué se debieron estas interrupciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="510" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="29" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="770" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="34" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="34" target="69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="9. ¿Dentro del ERON se cuenta con alguna estrategia para hacer frente a las interrupciones en el servicio público de acueducto?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="600" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="10. ¿Cúales?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="600" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="590" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="19" target="34">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="740" as="sourcePoint"/>
+                        <mxPoint x="70" y="690" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="490"/>
+                            <mxPoint x="70" y="490"/>
+                            <mxPoint x="70" y="630"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="560" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="42" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="18.&amp;nbsp;¿El ERON realiza la desinfección de los sanitarios y duchas?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1139" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="680" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="37">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="645" y="650" as="sourcePoint"/>
+                        <mxPoint x="320" y="740" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="645" y="660"/>
+                            <mxPoint x="645" y="700"/>
+                            <mxPoint x="320" y="700"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="19.&amp;nbsp;¿Cuantos sanitarios tiene el ERON en las áreas de privación de la libertad?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1139" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="20.&amp;nbsp;¿Con qué frecuencuencia hacen desinfección a los sanitarios?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1229" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="21.&amp;nbsp;¿Cuantos sanitarios son desifenctados?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1229" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="52" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="22.&amp;nbsp;¿Cuantas duchas tiene el ERON en las áreas de privación de la libertad?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1319" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="69" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="11.&amp;nbsp;⁠¿El Establecimiento de Reclusión del Orden Nacional cuenta con servicio de telefonía disponible para la población privada de la libertad?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="740" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="70" target="77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="12.&amp;nbsp;¿En los últimos tres meses se ha interrumpido el servicio de telefonía para la población privada de la libertad?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="740" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="730" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="13.&amp;nbsp;¿a qué se debieron estas interrupciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="840" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="70" target="73">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="770" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="76" target="77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="14. ¿Por qué razones el establecimiento no cuenta con servicio de telefonia disponible para la población privada de la libertad?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="930" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="15.&amp;nbsp;¿Durante el último trimestre el establecimiento ha experimentado interrupciones en la prestación del servicio público de Internet?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="929" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="69" target="76">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="1070" as="sourcePoint"/>
+                        <mxPoint x="70" y="1020" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="820"/>
+                            <mxPoint x="70" y="820"/>
+                            <mxPoint x="70" y="960"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="890" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.47;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="73" target="77">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="910" as="sourcePoint"/>
+                        <mxPoint x="610" y="910" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="241" y="920"/>
+                            <mxPoint x="667" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="835" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90" target="93">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="16.&amp;nbsp;¿Con que frecuencia el servicio público de Internet fue interrunpido?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1040" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="77" target="90">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="1110" as="sourcePoint"/>
+                        <mxPoint x="630" y="1060" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1030"/>
+                            <mxPoint x="250" y="1030"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="996" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="17.&amp;nbsp;¿a qué se debieron estas interrupciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1040" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="77" target="42">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="1020" as="sourcePoint"/>
+                        <mxPoint x="60" y="1170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="620" y="1020"/>
+                            <mxPoint x="60" y="1020"/>
+                            <mxPoint x="60" y="1169"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry y="1080" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="93" target="42">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="1160" as="sourcePoint"/>
+                        <mxPoint x="450" y="1110" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1110"/>
+                            <mxPoint x="250" y="1110"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="50">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="1230" as="sourcePoint"/>
+                        <mxPoint x="530" y="1180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1210"/>
+                            <mxPoint x="250" y="1210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="51" target="52">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="590" y="1460" as="sourcePoint"/>
+                        <mxPoint x="640" y="1410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1300"/>
+                            <mxPoint x="230" y="1300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="102" value="23.&amp;nbsp;¿Con qué frecuencuencia hacen desinfección a las duchas?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="1319" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="104" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="24.&amp;nbsp;¿Cuantos duchas son desifenctadas?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1410" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.477;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="102" target="104">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="1500" as="sourcePoint"/>
+                        <mxPoint x="590" y="1450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="763" y="1390"/>
+                            <mxPoint x="250" y="1390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="1400" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="840" width="70" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Personas" id="_dUNRl8IFe1zC1s7Yk6-">
+        <mxGraphModel dx="1426" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-0"/>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-1" parent="Fz2bBa-4kTrMft-Ol9MY-0"/>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-2" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-3" target="Fz2bBa-4kTrMft-Ol9MY-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-3" value="Servicios Públicos" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="40" y="30" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-5" target="Fz2bBa-4kTrMft-Ol9MY-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-5" value="1. ¿Durante el último trimestre el establecimiento ha experimentado interrupciones en la prestación del servicio de electricidad?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="180" y="40" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-6" value="2. ¿Con que frecuencia el servicio de electricidad fue interrunpido?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="620" y="40" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-8" target="Fz2bBa-4kTrMft-Ol9MY-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-8" value="3.&amp;nbsp;¿a qué se debieron estas interrupciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="180" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-9" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.567;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-6" target="Fz2bBa-4kTrMft-Ol9MY-8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="400" as="sourcePoint"/>
+                        <mxPoint x="450" y="350" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="790" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-10" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-12" target="Fz2bBa-4kTrMft-Ol9MY-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-12" target="Fz2bBa-4kTrMft-Ol9MY-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-12" value="4.&amp;nbsp;¿Dentro del ERON se cuenta con alguna estrategia para hacer frente a las interrupciones en el servicio de energía eléctrica?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="260" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-13" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="510" y="30" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-14" value="5. ¿Cúales?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="500" y="260" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-15" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-16" target="Fz2bBa-4kTrMft-Ol9MY-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-16" value="6.&amp;nbsp;¿Durante el último trimestre el establecimiento ha experimentado interrupciones en la prestación del servicio público de acueducto?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="410" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-17" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="410" y="250" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-18" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="150" y="350" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-19" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-5" target="Fz2bBa-4kTrMft-Ol9MY-16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="10" y="290" as="sourcePoint"/>
+                        <mxPoint x="60" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="330" y="150"/>
+                            <mxPoint x="60" y="150"/>
+                            <mxPoint x="60" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-20" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry y="260" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-21" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-14" target="Fz2bBa-4kTrMft-Ol9MY-16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="470" as="sourcePoint"/>
+                        <mxPoint x="420" y="410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="650" y="370"/>
+                            <mxPoint x="325" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-22" value="7. ¿Con que frecuencia el servicio de acueducto fue interrunpido?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="620" y="410" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-23" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="470" y="400" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-25" target="Fz2bBa-4kTrMft-Ol9MY-29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-25" value="8.&amp;nbsp;¿a qué se debieron estas interrupciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="510" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-22" target="Fz2bBa-4kTrMft-Ol9MY-25">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="770" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-27" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-29" target="Fz2bBa-4kTrMft-Ol9MY-30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-28" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-29" target="Fz2bBa-4kTrMft-Ol9MY-45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-29" value="9. ¿Dentro del ERON se cuenta con alguna estrategia para hacer frente a las interrupciones en el servicio público de acueducto?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="600" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-30" value="10. ¿Cúales?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="500" y="600" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-31" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="410" y="590" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-32" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-16" target="Fz2bBa-4kTrMft-Ol9MY-29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="740" as="sourcePoint"/>
+                        <mxPoint x="70" y="690" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="490"/>
+                            <mxPoint x="70" y="490"/>
+                            <mxPoint x="70" y="630"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-33" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="10" y="560" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-34" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-35" target="Fz2bBa-4kTrMft-Ol9MY-38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-35" value="18.&amp;nbsp;¿El ERON realiza la desinfección de los sanitarios y duchas?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="1139" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-36" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="160" y="680" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-37" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-30">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="645" y="650" as="sourcePoint"/>
+                        <mxPoint x="320" y="740" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="645" y="660"/>
+                            <mxPoint x="645" y="700"/>
+                            <mxPoint x="320" y="700"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-38" value="19.&amp;nbsp;¿Cuantos sanitarios tiene el ERON en las áreas de privación de la libertad?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="620" y="1139" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-39" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-40" target="Fz2bBa-4kTrMft-Ol9MY-41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-40" value="20.&amp;nbsp;¿Con qué frecuencuencia hacen desinfección a los sanitarios?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="1229" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-41" value="21.&amp;nbsp;¿Cuantos sanitarios son desifenctados?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="620" y="1229" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-42" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-43" target="Fz2bBa-4kTrMft-Ol9MY-68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-43" value="22.&amp;nbsp;¿Cuantas duchas tiene el ERON en las áreas de privación de la libertad?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="1319" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-44" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-45" target="Fz2bBa-4kTrMft-Ol9MY-47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-45" value="11.&amp;nbsp;⁠¿El Establecimiento de Reclusión del Orden Nacional cuenta con servicio de telefonía disponible para la población privada de la libertad?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="740" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-46" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-47" target="Fz2bBa-4kTrMft-Ol9MY-53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-47" value="12.&amp;nbsp;¿En los últimos tres meses se ha interrumpido el servicio de telefonía para la población privada de la libertad?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="620" y="740" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-48" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="470" y="730" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-49" value="13.&amp;nbsp;¿a qué se debieron estas interrupciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="840" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-50" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-47" target="Fz2bBa-4kTrMft-Ol9MY-49">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="770" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-51" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-52" target="Fz2bBa-4kTrMft-Ol9MY-53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-52" value="14. ¿Por qué razones el establecimiento no cuenta con servicio de telefonia disponible para la población privada de la libertad?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="930" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-53" value="15.&amp;nbsp;¿Durante el último trimestre el establecimiento ha experimentado interrupciones en la prestación del servicio público de Internet?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="620" y="929" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-54" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-45" target="Fz2bBa-4kTrMft-Ol9MY-52">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="1070" as="sourcePoint"/>
+                        <mxPoint x="70" y="1020" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="820"/>
+                            <mxPoint x="70" y="820"/>
+                            <mxPoint x="70" y="960"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-55" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="10" y="890" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-56" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.47;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-49" target="Fz2bBa-4kTrMft-Ol9MY-53">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="910" as="sourcePoint"/>
+                        <mxPoint x="610" y="910" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="241" y="920"/>
+                            <mxPoint x="667" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-57" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="560" y="835" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-58" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-59" target="Fz2bBa-4kTrMft-Ol9MY-62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-59" value="16.&amp;nbsp;¿Con que frecuencia el servicio público de Internet fue interrunpido?&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="1040" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-60" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-53" target="Fz2bBa-4kTrMft-Ol9MY-59">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="1110" as="sourcePoint"/>
+                        <mxPoint x="630" y="1060" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1030"/>
+                            <mxPoint x="250" y="1030"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-61" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="690" y="996" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-62" value="17.&amp;nbsp;¿a qué se debieron estas interrupciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="620" y="1040" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-63" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-53" target="Fz2bBa-4kTrMft-Ol9MY-35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="1020" as="sourcePoint"/>
+                        <mxPoint x="60" y="1170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="620" y="1020"/>
+                            <mxPoint x="60" y="1020"/>
+                            <mxPoint x="60" y="1169"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-64" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry y="1080" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-65" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-62" target="Fz2bBa-4kTrMft-Ol9MY-35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="1160" as="sourcePoint"/>
+                        <mxPoint x="450" y="1110" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1110"/>
+                            <mxPoint x="250" y="1110"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-66" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-38" target="Fz2bBa-4kTrMft-Ol9MY-40">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="1230" as="sourcePoint"/>
+                        <mxPoint x="530" y="1180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1210"/>
+                            <mxPoint x="250" y="1210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-67" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-41" target="Fz2bBa-4kTrMft-Ol9MY-43">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="590" y="1460" as="sourcePoint"/>
+                        <mxPoint x="640" y="1410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="1300"/>
+                            <mxPoint x="230" y="1300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-68" value="23.&amp;nbsp;¿Con qué frecuencuencia hacen desinfección a las duchas?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="620" y="1319" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-69" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-70" target="Fz2bBa-4kTrMft-Ol9MY-72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-70" value="24.&amp;nbsp;¿Cuantos duchas son desifenctadas?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="100" y="1410" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-71" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.477;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Fz2bBa-4kTrMft-Ol9MY-1" source="Fz2bBa-4kTrMft-Ol9MY-68" target="Fz2bBa-4kTrMft-Ol9MY-70">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="1500" as="sourcePoint"/>
+                        <mxPoint x="590" y="1450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="763" y="1390"/>
+                            <mxPoint x="250" y="1390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-72" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="680" y="1400" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Fz2bBa-4kTrMft-Ol9MY-73" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=90;" vertex="1" parent="Fz2bBa-4kTrMft-Ol9MY-1">
+                    <mxGeometry x="840" y="840" width="70" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
