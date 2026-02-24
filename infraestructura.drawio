@@ -1,0 +1,389 @@
+<mxfile host="65bd71144e">
+    <diagram id="_HOI7A_Wp0M13_jqgruY" name="Administración">
+        <mxGraphModel dx="1494" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Infraestructura" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="30" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="1.&amp;nbsp;¿Cuántos patios están habilitados actualmente en el establecimiento?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="40" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="2.&amp;nbsp;¿Cuál es el número total de camastros disponibles y en condiciones de uso por cada patio?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="130" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="3.&amp;nbsp;¿Cuál es el número total de duchas disponibles en cada patio del establecimiento?&lt;span style=&quot;font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Validaci%C3%B3n%3A%20P2%20%E2%89%A4%20P1%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23fff2cc%3BstrokeColor%3D%23d6b656%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22540%22%20y%3D%22155%22%20width%3D%22260%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20style%3D%22edgeStyle%3Dnone%3Bhtml%3D1%3BstrokeColor%3D%23d6b656%3Bdashed%3D1%3B%22%20edge%3D%221%22%20source%3D%222%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22500%22%20y%3D%22172%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="220" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Validación: Repetición por # de patios" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="140" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="157" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Validación: Repetición por # de patios" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="230" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="247" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="4.&amp;nbsp;De las duchas disponibles, ¿cuántas se encuentran en funcionamiento en cada patio?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="310" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Validación: Repetición por # de patios" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="320" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="337" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="5.&amp;nbsp;¿Cuál es el número total de sanitarios disponibles y en funcionamiento en cada patio?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="400" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Validación: Repetición por # de patios" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="410" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="427" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="6.&amp;nbsp;¿Con qué periodicidad se verifica el adecuado funcionamiento de sanitarios en el establecimiento?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="490" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="7.&amp;nbsp;Cuando se identifican daños en los sanitarios, ¿en cuánto tiempo se realizan las reparaciones?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="580" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="20" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="8.&amp;nbsp;¿El establecimiento cuenta con un espacio exclusivo, habilitado y en funcionamiento para la realización de visitas íntimas?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="670" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="9.&amp;nbsp;¿Cuántos espacios exclusivos para visitas íntimas están disponibles y en funcionamiento en el establecimiento?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="740" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.535;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="20" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="640" as="sourcePoint"/>
+                        <mxPoint x="560" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="660" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="32" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="10.&amp;nbsp;En el último trimestre, ¿se presentaron suspensiones o restricciones generales a la realización de visitas íntimas por decisión institucional?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="820" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="760" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="21" target="32">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="570" y="910" as="sourcePoint"/>
+                        <mxPoint x="620" y="860" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="595" y="840"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="11.&amp;nbsp;¿El establecimiento permite la realización de visitas íntimas al interior de las celdas (cuando no hay espacio específico)?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="910" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.535;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="860" as="sourcePoint"/>
+                        <mxPoint x="603.0500000000002" y="904.98" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="870" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="36" target="40">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="1120" as="sourcePoint"/>
+                        <mxPoint x="450" y="1060" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="605" y="970"/>
+                            <mxPoint x="605" y="1060"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="1030" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="950" width="70" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Personas" id="JDPBqogo2GSyKLjKBQuO">
+        <mxGraphModel dx="1494" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-0"/>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-1" parent="b8oUMYe8DDO8Wn52r7YX-0"/>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-2" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="b8oUMYe8DDO8Wn52r7YX-3" target="b8oUMYe8DDO8Wn52r7YX-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-3" value="Infraestructura" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="40" y="30" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="b8oUMYe8DDO8Wn52r7YX-5" target="b8oUMYe8DDO8Wn52r7YX-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-5" value="1.&amp;nbsp;¿En qué patio se encuentra actualmente?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="210" y="40" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="b8oUMYe8DDO8Wn52r7YX-7" target="b8oUMYe8DDO8Wn52r7YX-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-7" value="2.&amp;nbsp;Actualmente, ¿en qué duerme usted en las noches?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="210" y="130" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="b8oUMYe8DDO8Wn52r7YX-9" target="VQ1f5Q2bjqxFayn5euhC-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="b8oUMYe8DDO8Wn52r7YX-9" value="3.&amp;nbsp;¿Usted cuenta con un colchón o colchoneta propio para dormir?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="210" y="220" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-0" value="4.&amp;nbsp;En general, ¿el colchón o colchoneta se encuentra en buen estado (sin humedad, sin roturas importantes y limpio)?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="490" y="320" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-1" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="505" y="220" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-2" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="b8oUMYe8DDO8Wn52r7YX-9" target="VQ1f5Q2bjqxFayn5euhC-0">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="500" as="sourcePoint"/>
+                        <mxPoint x="450" y="450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="440" y="260"/>
+                            <mxPoint x="605" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-3" target="VQ1f5Q2bjqxFayn5euhC-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-3" value="5.&amp;nbsp;¿Cuenta con al menos una cobija o elemento similar para cubrirse al dormir?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="210" y="420" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-5" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="240" y="330" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-7" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.535;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-0" target="VQ1f5Q2bjqxFayn5euhC-3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="500" as="sourcePoint"/>
+                        <mxPoint x="450" y="450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="613" y="450"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-9" target="VQ1f5Q2bjqxFayn5euhC-25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-9" value="6.&amp;nbsp;En su patio aproximadamente ¿cuántas duchas están disponibles para uso de las personas privadas de la libertad?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="210" y="510" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-10" target="VQ1f5Q2bjqxFayn5euhC-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-10" value="7.&amp;nbsp;En su patio, ¿cómo se encuentran las duchas en cuanto a su estado físico (sin daños que impidan su uso)? (Considerar llaves dañadas, paredes en mal estado, tubería rota, deterioro general)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="450" y="590" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-13" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-9" target="VQ1f5Q2bjqxFayn5euhC-10">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="540" as="sourcePoint"/>
+                        <mxPoint x="520" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-14" value="i&amp;gt;0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="485" y="500" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-15" target="VQ1f5Q2bjqxFayn5euhC-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-15" value="8.&amp;nbsp;En su patio, ¿las duchas funcionan adecuadamente? (siempre sale agua, presión del agua, fallas intermitentes)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="450" y="730" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-16" target="VQ1f5Q2bjqxFayn5euhC-19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-16" value="9.&amp;nbsp;En su patio, ¿las duchas se mantienen en condiciones de limpieza adecuadas?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="450" y="870" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-19" target="VQ1f5Q2bjqxFayn5euhC-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-19" value="10.&amp;nbsp;En su patio, ¿las duchas cuentan con condiciones adecuadas de privacidad (por ejemplo, divisiones, puertas o barreras visuales)?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="450" y="1010" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-20" value="11.&amp;nbsp;En su patio, ¿usted se siente seguro(a) al usar las duchas?&amp;nbsp; (sin riesgo de agresiones, acoso o intimidación)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="450" y="1150" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-25" value="12.&amp;nbsp;En su patio aproximadamente ¿cuántos sanitarios están disponibles para uso de las personas privadas de la libertad?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="200" y="1290" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-27" value="i=0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="250" y="905" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-28" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-20" target="VQ1f5Q2bjqxFayn5euhC-25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="575" y="1340" as="sourcePoint"/>
+                        <mxPoint x="625" y="1290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="565" y="1310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-29" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.548;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;entryPerimeter=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" target="VQ1f5Q2bjqxFayn5euhC-31">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="425" y="1330" as="sourcePoint"/>
+                        <mxPoint x="550" y="1380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-30" value="i&amp;gt;0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="575" y="1340" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-31" target="VQ1f5Q2bjqxFayn5euhC-32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-31" value="13. En su patio, ¿cómo se encuentran los sanitarios en cuanto a sus condiciones de uso (es decir, en buen estado físico y funcionando correctamente)?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="425" y="1390" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-35" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-32" target="VQ1f5Q2bjqxFayn5euhC-33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-32" value="14.&amp;nbsp;En su patio, ¿los sanitarios se mantienen en condiciones de limpieza adecuadas?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="425" y="1530" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-33" value="15.&amp;nbsp;En su patio, ¿los sanitarios garantizan condiciones adecuadas de privacidad (por ejemplo, puertas, divisiones o barreras visuales)?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="425" y="1670" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-47" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-37" target="VQ1f5Q2bjqxFayn5euhC-46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-37" value="16.&amp;nbsp;En su patio, ¿los sanitarios garantizan condiciones adecuadas de privacidad (por ejemplo, puertas, divisiones o barreras visuales)?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="200" y="1820" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-38" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-25" target="VQ1f5Q2bjqxFayn5euhC-37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-39" value="i=0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="250" y="1560" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-40" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.457;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-33" target="VQ1f5Q2bjqxFayn5euhC-37">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="1790" as="sourcePoint"/>
+                        <mxPoint x="450" y="1740" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="530" y="1840"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-41" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.548;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;entryPerimeter=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="430" y="1860" as="sourcePoint"/>
+                        <mxPoint x="556" y="1920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-45" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-42" target="VQ1f5Q2bjqxFayn5euhC-44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-42" value="17.&amp;nbsp;¿Las condiciones generales de los espacios para visitas intimas son adecuadas? (limpieza, ventilación, infraestructura y estado del colchón/colchoneta)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="420" y="1920" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-43" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="570" y="1850" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-44" value="18.&amp;nbsp;¿Estos espacios garantizan condiciones adecuadas de privacidad durante la visita íntima?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="420" y="2060" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-53" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-46" target="VQ1f5Q2bjqxFayn5euhC-54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="315" y="2520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-46" value="19.&amp;nbsp;En el último trimestre, ¿a usted le han impedido, aplazado o suspendido una visita íntima?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="200" y="2230" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-48" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="250" y="2020" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-49" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-44" target="VQ1f5Q2bjqxFayn5euhC-46">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="605" y="2370" as="sourcePoint"/>
+                        <mxPoint x="655" y="2320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="535" y="2270"/>
+                            <mxPoint x="430" y="2270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-50" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.548;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;entryPerimeter=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="430" y="2300" as="sourcePoint"/>
+                        <mxPoint x="556" y="2360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-51" value="Sí" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="570" y="2290" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-52" value="20.&amp;nbsp;¿Cuál fue la principal razón del impedimento, aplazamiento o suspensión?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="420" y="2360" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-54" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="275" y="2540" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-55" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="b8oUMYe8DDO8Wn52r7YX-1" source="VQ1f5Q2bjqxFayn5euhC-52" target="VQ1f5Q2bjqxFayn5euhC-54">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="555" y="2570" as="sourcePoint"/>
+                        <mxPoint x="605" y="2520" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="535" y="2570"/>
+                            <mxPoint x="355" y="2570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VQ1f5Q2bjqxFayn5euhC-56" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="b8oUMYe8DDO8Wn52r7YX-1">
+                    <mxGeometry x="250" y="2420" width="70" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
