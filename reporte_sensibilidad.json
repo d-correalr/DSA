@@ -1,0 +1,7 @@
+{
+  "n_scenarios": 300,
+  "spearman_mean": 0.8444958589144848,
+  "spearman_p10": 0.8269588108538365,
+  "top100_overlap_mean": 0.9801000000000003,
+  "top100_overlap_p10": 0.98
+}
